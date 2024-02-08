@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/actual" rel="stylesheet">
+    <style>@import url('https://fonts.cdnfonts.com/css/actual');</style>
+       
+                  
+</head>
+<body>
+        <h1 class="title">Calculadora</h1>
+    <div class="zeca">
+        <h3 class="text1">Escolha os horários que deseja calcular</h3>
+        <input type="number" id="horaInicial" placeholder=" Hora Inicial">&nbsp;  :&nbsp;
+        <input type="number" id="minInicial" placeholder=" Minuto Inicial"> <br>
+        <input type="number" id="horaFinal" placeholder=" Hora Final">&nbsp;  :&nbsp;
+        <input type="number" id="minFinal" placeholder=" Minuto Final"> <br>
+        <button onclick="soma()" class="button">Soma</button>
+        <button onclick="sub()" class="button">Diferença</button>
+        <h3 id="r">Resultado</h3>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
