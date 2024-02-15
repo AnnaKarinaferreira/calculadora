@@ -12,5 +12,17 @@ function soma(){
 }
 
 function sub(){
+   let momentoInicial = hi.value*60 + Number(mi.value);
+   let momentoFinal = hi.value*60 + Number(mf.value);
+   let resultadoEmMinutos = momentoInicial - momentoFinal
+   if(resultadoEmMinutos < 0){
+    resultadoEmMinutos *= -1;
+   }
    
+   let resultadoEmHoras = 0;
+   while(resultadoEmMinutos > 59){
+   resultadoEmHoras ++;
+   resultadoEmMinutos -= 60;
+   }
+   resultado.innerHTML = resultadoEmHoras + ":" +resultadoEmMinutos;
 }

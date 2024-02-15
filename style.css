@@ -1,6 +1,6 @@
 body{
-    margin-top: 10rem;
-    background-color: rgb(212, 238, 221);
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
 }
 .title{
     font-family: 'Actual', sans-serif;
@@ -9,16 +9,16 @@ body{
 }
 .zeca{
     text-align: center;
-    
-    padding: 1rem;
+    padding: 3rem;
 }
+
 .text1{
     margin-left: none;
 }
 input{
     border-color: transparent;
     font-family: 'Actual', sans-serif;
-    background-color: rgb(181, 224, 201);
+    background-color: rgb(189, 180, 199);
     transition-duration: 0.4s;
     font-size: 13px;
     margin-top: 1rem;
@@ -34,7 +34,7 @@ input{
 .button{
     border-color: transparent;
     font-family: 'Actual', sans-serif;
-    background-color: rgb(135, 199, 149);
+    background-color: rgb(201, 185, 236);
     transition-duration: 0.4s;
     font-size: 10px;
     margin-top: 2rem;
